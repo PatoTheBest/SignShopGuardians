@@ -1,0 +1,23 @@
+name: SignShopGuardian
+main: com.minebone.signshopguardian.SignShopGuardian
+version: 1.3.0Dev
+author: PatoTheBest
+depend: [SignShop]
+commands:
+  getguardians:
+    description: Queries the amount of guardians left
+    usage: /getguardians
+  countguards:
+    description: Queries the amount of guardians left
+    usage: /countguards
+  countguardians:
+    description: Queries the amount of guardians left
+    usage: /countguardians
+  guardiansleft:
+    description: Queries the amount of guardians left
+    usage: /guardiansleft
+  addguardians:
+    description: Gifts or removes the given amount of guardians
+    usage: /addguardians [player] <amount>
+  sqlimport:
+    description: Import the guardians from an sql database
